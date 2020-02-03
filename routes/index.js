@@ -15,7 +15,7 @@ router.post('/webhook', (req, res) => {
 function reply(reply_token) {
   let headers = {
     'Content-Type': 'application/json',
-    'Authorization': 'Bearer {a6Uqq2JHzdXg0k6ZvTGy2lbWfyC/p2fqPqep3mMvQpY+y/EK1dZcdfPqJpwYCdu0dQh9pvwl6AUxLYZZ8E6OmhO8WgrfrqEcaBEEP/6NKVU9BIN/5nx5TGb3hXSH4ijhDrbKDAjYRHaFBtZ8xXlAOQdB04t89/1O/w1cDnyilFU=}'
+    'Authorization': 'a6Uqq2JHzdXg0k6ZvTGy2lbWfyC/p2fqPqep3mMvQpY+y/EK1dZcdfPqJpwYCdu0dQh9pvwl6AUxLYZZ8E6OmhO8WgrfrqEcaBEEP/6NKVU9BIN/5nx5TGb3hXSH4ijhDrbKDAjYRHaFBtZ8xXlAOQdB04t89/1O/w1cDnyilFU='
   }
   let body = JSON.stringify({
     replyToken: reply_token,
